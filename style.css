@@ -1,0 +1,92 @@
+nav ul {
+    display: flex;
+    width: auto;
+    list-style: none;
+    background-color: #424242;
+    color: #A0A0A0;
+    font-size: 1.4em;
+    height: 5vh;
+}
+
+nav {
+    height: 30vh;
+    background-color: #EEEEEE;
+}
+
+nav ul li {
+    /* margin-left: .5em; */
+    margin: auto .5em auto 0;
+
+    /* text-align: center; */
+    /* align-content: center; */
+
+}
+
+nav ul li:hover {
+    width: auto;
+    background-color: #E0E0E0;
+    color: #929292;
+}
+
+section {
+    max-width: 100vw;
+    margin: auto;
+}
+
+section h2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    font-size: 1.6em;
+    color: #555555;
+}
+
+section article {
+    display: inline-block;
+    align-items: center;
+    margin-left: 2%;
+    flex-direction: column;
+    gap: 1.2em;
+
+    background-color: #E0E0E0;
+    width: 30vw;
+    height: 60vh;
+}
+
+form {
+    border-top: solid #717171;
+    display: flex;
+    flex-direction: column;
+    border-top-width: .2em 90%;
+    margin-top: 10em;
+    padding: 0 3em;
+}
+
+form input {
+    margin: 1.2em 15%;
+    border: 2px solid black;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+form input:nth-child(4) {
+    border: 2px solid #C9C9C9;
+    color: black;
+}
+
+/* form input:nth-child(4)> ::placeholder
+je n'ai pas reussi a colore le text a l'interieur */
+
+form h2 {
+    font-size: 2.6em;
+}
+
+form textarea {
+    margin: .6em 15%;
+    height: 20vh;
+    font-size: 14px;
+    border: 2px solid black;
+}
